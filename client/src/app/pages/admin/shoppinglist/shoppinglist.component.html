@@ -1,0 +1,47 @@
+<!-- <input type="text" [(ngModel)]="task.name">
+<button (click)="addList()">OK</button>
+{{tasks|json}}
+
+<ul>
+	<li *ngFor="let task of tasks">
+		<span class="strike" (click)="onStrike(task)" [ngClass]="{'strike': task.strike}">{{task.name}}</span>
+		<button (click)="edit(task)">edit</button>
+		<button (click)="delete(task)">del</button>
+	</li>
+</ul> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<button class="button" (click)="modal.show({component: 'shoppinglist'})">Crete list</button>
+
+<div>
+	<span>List name</span>
+	<div *ngFor="let shoppinglist of ss.shoppinglists">
+		<div>
+			{{shoppinglist.name}}
+		</div>
+		<button (click)="modal.show({component: 'shoppinglist', shoppinglist:shoppinglist})">Edit</button>
+	</div>
+</div>

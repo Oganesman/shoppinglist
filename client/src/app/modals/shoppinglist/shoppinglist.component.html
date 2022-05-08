@@ -1,0 +1,6 @@
+<input placeholder="Name list" type="text" [(ngModel)]="shoppinglist.name">
+
+
+<button (click)="ss.create(shoppinglist); close()">Create</button>
+<button (click)="close()">Cancel</button>
+<button (click)="ss.delete(shoppinglist); close()">Delete</button>
