@@ -49,3 +49,5 @@ export class ShoppinglistComponent {
 		public modal: ModalService
 	) { }
 }
+
+// bhhbbhhbhb
